@@ -1,0 +1,18 @@
+{
+	"bchain_uid": "c311b327-b829-6af7-9a6e-730dbb1c9c86",
+	"status": "green",
+	"healthchecks": [
+		{
+			"healthcheck_uid": "3a4dac459ed84e40b76b646f060de74f",
+			"healthcheck_availability": true
+		},
+		{
+			"healthcheck_uid": "3a4dac459ed84e40b76b646f060de444",
+			"healthcheck_availability": true
+		},
+		{
+			"healthcheck_uid": "3a4dac459ed84e40b76b646f060de555",
+			"healthcheck_availability": false
+		}		
+	]
+}

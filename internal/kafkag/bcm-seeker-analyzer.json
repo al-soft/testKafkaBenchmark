@@ -1,0 +1,90 @@
+{
+    "data":
+    [
+        {
+            "symon":
+            {
+                "availability": true,
+                "polygon":
+                {
+                    "name": "MAJOR-CHECK"
+                },
+                "event_time":
+                {
+                    "start": "2021-11-16T07:36:03.581Z",
+                    "end": "2021-11-16T07:36:03.581Z"
+                },
+                "ci": "CI00380023",
+                "system":
+                {
+                    "name": "ЕФС"
+                },
+                "healthcheck":
+                {
+                    "response": "",
+                    "uid": "444761598ba64521ab51384974a9da2a",
+                    "request": "http://tkle-violet0060.vm.esrt.cloud.sbrf.ru:9080/circuit-breaker-engine-web/environment/product",
+                    "domain": "sigma",
+                    "name": "[ПС] ТехПерерывы [/circuit-breaker-engine-web/environment/product]"
+                }
+            }
+        },
+        {
+            "symon":
+            {
+                "availability": true,
+                "polygon":
+                {
+                    "name": "MAJOR-CHECK"
+                },
+                "event_time":
+                {
+                    "start": "2021-11-16T07:36:03.593Z",
+                    "end": "2021-11-16T07:36:03.593Z"
+                },
+                "ci": "CI00380023",
+                "system":
+                {
+                    "name": "ЕФС"
+                },
+                "healthcheck":
+                {
+                    "response": "",
+                    "uid": "41ebeeab003342f3980dae8643ba8cb6",
+                    "request": "http://tkle-violet0020.vm.esrt.cloud.sbrf.ru:9080/idpersonremote-bh/healthcheck",
+                    "domain": "sigma",
+                    "name": "[ПС] Профиль ФЛ [/idpersonremote-bh/healthcheck]"
+                }
+            }
+        },
+        {
+            "symon":
+            {
+                "availability": true,
+                "polygon":
+                {
+                    "name": "MAJOR-CHECK"
+                },
+                "event_time":
+                {
+                    "start": "2021-11-16T07:36:03.573Z",
+                    "end": "2021-11-16T07:36:03.573Z"
+                },
+                "ci": "CI00380023",
+                "system":
+                {
+                    "name": "ЕФС"
+                },
+                "healthcheck":
+                {
+                    "response": "",
+                    "uid": "6c0f195665b9414886f0c10cfc570741",
+                    "request": "http://tkle-violet0054.vm.esrt.cloud.sbrf.ru:9080/ufs-report-manager/rest/v1/healthcheck",
+                    "domain": "sigma",
+                    "name": "[АРМ] Печать АРМ [/ufs-report-manager/rest/v1/healthcheck]"
+                }
+            }
+        }
+    ],
+    "bchain_uid": "123124wergfwerg34563456"
+}

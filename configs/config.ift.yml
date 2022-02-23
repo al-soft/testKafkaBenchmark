@@ -1,0 +1,24 @@
+database:
+          host: "tkled-mzp000001.vm.esrt.cloud.sbrf.ru"
+          port: 5433
+          dbname: "symondb"
+          user: "cab-sa-osirisc1"
+          password: "mWQm#F6z}GMfS4FQ3s"
+          ssl: "disable"
+          schema: "symon"
+
+logstash:
+        host: "logstash:4506"
+        system: "symonlog"
+        module: "bcm-analyzer"
+        elastic_index: "log-symon-submodules"
+
+log:
+        file: "log/bcmanalyzer.log"        
+
+kafka:
+        server: "tkleq-mzp000001.vm.esrt.cloud.sbrf.ru:9092,tkleq-mzp000002.vm.esrt.cloud.sbrf.ru:9092,tkleq-mzp000003.vm.esrt.cloud.sbrf.ru:9092"
+        group_id: "bcm-analyzer-group-id" 
+        topic:
+                bcmseeker:   "bcm-seeker-analyzer"
+                bcmrecorder: "bcm-analyzer-recorder"

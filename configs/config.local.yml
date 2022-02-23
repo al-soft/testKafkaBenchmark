@@ -1,0 +1,26 @@
+database:
+          host: "tkles-mzp000005.vm.esrt.cloud.sbrf.ru"
+          port: 30432
+          dbname: "symondb_ift"
+          user: "postgres"
+          password: "passw0rd"
+          ssl: "disable"
+          schema: "symon"
+
+logstash:
+        host: "tkles-mzp000005.vm.esrt.cloud.sbrf.ru:30456"
+        system: "symonlog"
+        module: "bcm-analyzer"
+        elastic_index: "log-symon-submodules"
+
+log:
+        file: "../log/bcmanalyzer.log"        
+
+kafka:
+        server: "tkles-mzp000005.vm.esrt.cloud.sbrf.ru:30092"
+        group_id: "bcm-analyzer-group-id" 
+        topic:
+                bcmseeker:   "bcm-seeker-analyzer"
+                bcmrecorder: "bcm-analyzer-recorder"
+
+        
